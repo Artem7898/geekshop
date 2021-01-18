@@ -1,12 +1,10 @@
 __pycache__ /
 .env
-.venv
-env /
-Venv /
-ENV /
-env.bak /
-venv.bak /
-/ сайт
-.idea /
-.secret
-tmp
+venv
+env
+.idea 
+db.sqlite3
+DS_Store
+project/setting.py
+media/
+
