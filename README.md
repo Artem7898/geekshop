@@ -1,2 +1,2 @@
 # geekshop
-Django Framework. урове 2
+Django Framework. уровень 2
