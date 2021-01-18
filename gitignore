@@ -1,4 +1,4 @@
-# gitignore
+# gitignore geekshop
 
 __pycache__ /
 .env
