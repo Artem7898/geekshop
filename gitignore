@@ -1,0 +1,11 @@
+# gitignore
+
+__pycache__ /
+.env
+Venv
+env
+.idea
+db.sqlite3
+DS_Store
+project / setup.py 
+MEDIA /
