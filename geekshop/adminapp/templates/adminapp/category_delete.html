@@ -1,0 +1,17 @@
+{% extends 'authapp/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="category_delete">
+        Уверенны, что хотите удолить категорию<strong>{{ object.name }}</strong>?
+        <form action="{% url 'admin:product_delete' object.pk %}" method="POST">
+            {% csrf_token %}
+            <input class="btn btn-danger" type="submit" value="удолить">
+        </form>
+        <button class="btn btn-success">
+            <a href="{% url 'admin:categories' %}">
+                отмена
+            </a>
+        </button>
+    </div>
+{% endblock %}
